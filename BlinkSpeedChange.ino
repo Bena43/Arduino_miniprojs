@@ -1,25 +1,23 @@
 void setup() {
-  // put your setup code here, to run once:
   pinMode(LED_BUILTIN, OUTPUT);
 }
 void fast(){
- 
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  // a function that makes the fast blinks (frequency of 1 full blink per second)
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500);                    
+  digitalWrite(LED_BUILTIN, LOW); 
   delay(500); 
 }
 void slow(){
-  
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(2000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  // a function that makes the slow blinks (frequency of 1 full blink per 4 seconds)
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(2000);                       
+  digitalWrite(LED_BUILTIN, LOW);    
   delay(2000);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  int i=0;
-for (;i<5;i++){fast();}
-for(;i<10;i++){slow();}
+int i=0; // counter of how many full blinks has been since the beginning of the current loop
+for (;i<5;i++){fast();} // 5 fast blinks
+for(;i<10;i++){slow();} // 5 slow blinks
 }
