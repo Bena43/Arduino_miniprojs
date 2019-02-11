@@ -6,6 +6,8 @@
    LED, Photoresistor, 6 wires, 220 ohm resistor, 10k ohm resistor, breadboard, Arduino Uno.
 
    Created by Yehonatan Ben-Harush February 2019.
+   Hebrew demonstration video:
+   https://youtu.be/w8Bf1UlwXX0
  */
 
 
