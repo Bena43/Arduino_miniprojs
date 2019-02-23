@@ -6,7 +6,9 @@
   if its above:
   if ledA's button,buttonPin is being pushed, the led in on, and when not pushed, the led is off.
   if ledB's button, switchPin has been pushed, change the state. if state equals 1, led is on. state equals 0 means led is off.
- 
+  
+  Hebrew Youtube toturial:
+   https://youtu.be/_UeG8UfAS18
  Created by Yehonatan Ben Harush, 21/2/2019
  */
 
